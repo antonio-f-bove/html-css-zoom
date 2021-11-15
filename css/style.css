@@ -7,6 +7,7 @@
 .pos-rel {
     position: relative;
 }
+
 /* ============================== */
 
 
@@ -37,6 +38,14 @@
 
 .mini {
     margin: 20px 5px;
+}
+
+.img-container {
+    width: calc(100% / 7 -10px);
+}
+.img-container img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .info-container {
